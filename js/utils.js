@@ -4,7 +4,7 @@
 globalThis.IS_DEPLOYED = undefined;
 globalThis.VERSION_NUMBER =
   /* 5ETOOLS_VERSION__OPEN */ "2.3.0" /* 5ETOOLS_VERSION__CLOSE */;
-globalThis.DEPLOYED_IMG_ROOT = undefined;
+globalThis.DEPLOYED_IMG_ROOT = "https://5e.tools/";
 // for the roll20 script to set
 globalThis.IS_VTT = false;
 
@@ -3168,7 +3168,7 @@ globalThis.AnimationUtil = class {
       const img = new Image();
       img.onerror = (err) => reject(err);
       img.onload = () => resolve(img);
-      img.src = "https://5e.tools/" + uri;
+      img.src = uri;
     });
   }
 };
