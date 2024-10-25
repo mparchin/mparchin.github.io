@@ -4,7 +4,7 @@
 globalThis.IS_DEPLOYED = undefined;
 globalThis.VERSION_NUMBER =
   /* 5ETOOLS_VERSION__OPEN */ "2.3.0" /* 5ETOOLS_VERSION__CLOSE */;
-globalThis.DEPLOYED_IMG_ROOT = "https://5e.tools/";
+globalThis.DEPLOYED_IMG_ROOT = "https://5e.tools/img/";
 // for the roll20 script to set
 globalThis.IS_VTT = false;
 
