@@ -21,8 +21,8 @@ Thumbs.db
 .rsync-filter
 
 # Generated service worker files
-sw.js
-sw-injector.js
+# sw.js
+# sw-injector.js
 
 # Log files
 *.log
